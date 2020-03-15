@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis:400,500';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i';
+
+
+
+
+
+
+
+
+
+
+.equipe-container {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.equipe-container .titulo {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+.titulo.cargo-master {
+    background-color: #FFAA00;
+}
+
+.titulo.cargo-gerente {
+    background-color: #AA0000;
+}
+
+.titulo.cargo-admin {
+    background-color: #FF5555;
+}
+
+.titulo.cargo-moderador {
+    background-color: #00AA00;
+}
+
+.titulo.cargo-ajudante {
+    background-color: #FFFF55;
+}
+
+
+
+
+
+.equipe-container .membros {
+	height: auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	background-color: #fff;
+	margin-bottom: 13px;
+    width: 100%;
+}
+
+.staff {
+	text-align: center;
+	padding: 15px;
+	margin: 5px 10px auto;
+	position: relative;
+	background-color: #efefef;
+    border-radius: 3px;
+}
+
+.staff img {
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.staff img.cargo-master {
+    border: 3px solid #FFAA00;   
+}
+
+.staff img.cargo-gerente {
+    border: 3px solid #AA0000;
+}
+
+.staff img.cargo-admin {
+    border: 3px solid #FF5555;
+}
+
+.staff img.cargo-moderador {
+    border: 3px solid #00AA00;
+}
+
+.staff img.cargo-ajudante {
+    border: 3px solid #FFFF55;
+}
+
+.staff .staff-nick {
+	display: block;
+	margin-top: 10px;
+    margin-bottom: -8px;
+	font-size: 18px;
+    font-weight: bold;
+	color: #333;
+    font-family: 'Arial', sans-serif;
+}

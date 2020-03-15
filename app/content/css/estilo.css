@@ -1,0 +1,295 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700";
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+
+
+
+
+.box-shadow {
+    -webkit-box-shadow: 0px 3px 12px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 3px 12px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 12px -3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/* CSS STYLE GERAIS */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+body {
+    background-color: #e9e9e9;
+}
+
+a {
+	text-decoration: none !important;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS STYLE CONTAINERS */
+
+.container-total {
+    width: 92.2%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-global {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/* CSS STYLE FOOTER */
+
+.footer {
+    width: 100%;
+    height: all;
+    margin: 0 auto;
+    display: block;
+    outline: 0;
+    position: relative;
+    bottom: 0%;
+}
+
+.footer > div {
+    width: 100%;
+    height: all;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    border-top: 3px solid #000;
+}
+
+.footer > div .footer-brand {
+    width: 90%;
+    height: all;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.footer-brand .copyright {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-brand .copyright .texto {
+    color: #cdcdcd;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-brand .copyright .texto a {
+    color: #ff3f34;
+}
+
+.footer-brand .lojas-ativas {
+    color: #fff;
+    font-size: 18px;
+    float: right;
+    background-color: #ff3f34;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.footer-brand .lojas-ativas span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cor {
+    color: #bbb;
+}
+
+cor[grosso] {
+    font-weight: bold;
+}
+
+cor[cor="data-punicao"] {
+    color: #2c3e50;
+}
+
+cor[cor="punicao"] {
+    color: #777;
+}
+
+cor[cor="azul"] {
+    color: #00a8ff;
+}
+
+cor[cor="verde"] {
+    color: #2ecc71;
+}
+
+cor[cor="vermelho"] {
+    color: #e74c3c;
+}
+
+cor[cor="preto"] {
+    color: #141414;
+}
+
+cor[cor="branco"] {
+    color: #fff;
+}
+
+cor[cor="rosa"] {
+    color: #e649d5;
+}
+
+cor[cor="roxo"] {
+    color: #9b59b6;
+}
+
+cor[cor="amarelo"] {
+    color: #fbc531;
+}
+
+cor[cor="cinza"] {
+    color: #9b9b9b;
+}
+
+cor[cor="azul claro"] {
+    color: #00a8ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+botao {
+    background-color: #777;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+botao[fundo="branco"] a {
+    color: #000;
+}
+
+botao[fundo="branco"] a:hover {
+    color: #000;
+}
+
+botao a {
+    color: #fff;
+    display: block;
+    outline: 0;
+    padding: 10px 20px;
+}
+
+botao a:hover {
+    color: #fff;
+}
+
+botao[fundo="azul"] {
+    background-color: #00a8ff;
+}
+
+botao[fundo="verde"] {
+    background-color: #2ecc71;
+}
+
+botao[fundo="vermelho"] {
+    background-color: #ff3f34;
+}
+
+botao[fundo="preto"] {
+    background-color: #141414;
+}
+
+botao[fundo="branco"] {
+    background-color: #fff;
+}
+
+botao[fundo="rosa"] {
+    background-color: #e649d5;
+}
+
+botao[fundo="roxo"] {
+    background-color: #9b59b6;
+}
+
+botao[fundo="amarelo"] {
+    background-color: #fbc531;
+}
+
+botao[fundo="cinza"] {
+    background-color: #9b9b9b;
+}
